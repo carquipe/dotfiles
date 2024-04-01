@@ -1,0 +1,53 @@
+{
+    "workbench.colorTheme": "Tomorrow Night Blue",
+    "security.workspace.trust.untrustedFiles": "open",
+    "workbench.iconTheme": "material-icon-theme",
+    "yaml.schemas": {
+        "file:///Users/carlosquinzaperez/.vscode/extensions/atlassian.atlascode-3.0.10/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml"
+    },
+    "atlascode.jira.jqlList": [
+        {
+            "id": "31273623-97a5-4d26-a7b7-8fd020385215",
+            "enabled": true,
+            "name": "My projects-crealsa Issues",
+            "query": "assignee = currentUser() AND resolution = Unresolved ORDER BY lastViewed DESC",
+            "siteId": "a093a8da-bcf9-4441-a7aa-224ccb21804f",
+            "monitor": true
+        }
+    ],
+    "redhat.telemetry.enabled": true,
+    "atlascode.bitbucket.enabled": true,
+    "git.autofetch": true,
+    "editor.rulers": [
+        100,
+        120
+    ],
+    "editor.cursorBlinking": "expand",
+    "editor.linkedEditing": true,
+    "editor.guides.bracketPairs": true,
+    "editor.stickyScroll.enabled": true,
+    "editor.cursorSmoothCaretAnimation": "on",
+    "FSharp.suggestGitignore": false,
+    "diffEditor.ignoreTrimWhitespace": false,
+    "workbench.sideBar.location": "right",
+    "[json]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "editor.fontSize": 14,
+    "java.completion.filteredTypes": [
+        "java.awt.*",
+        "com.sun.*",
+        "sun.*",
+        "jdk.*",
+        "org.graalvm.*",
+        "io.micrometer.shaded.*"
+    ],
+    "maven.terminal.favorites": [],
+    "boot-java.rewrite.reconcile": true,
+    "atlascode.jira.enabled": true,
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "editor.minimap.enabled": false,
+    "terminal.integrated.fontFamily": "Meslo LG M for Powerline"
+}
